@@ -1,352 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.10.12 on linux)" generated="2024-11-28T11:30:39.905914" rpa="false" schemaversion="5">
-<suite id="s1" name="My First Test Suit" source="/home/user/DesktopMini/RobotFramework/my_first_test_suit.robot">
-<test id="s1-t1" name="Login to Redmine" line="14">
+<robot generator="Robot 7.1.1 (Python 3.10.12 on linux)" generated="2024-11-28T18:14:48.149221" rpa="false" schemaversion="5">
+<suite id="s1" name="My First Test Suit" source="/home/user/DesktopMini/RobotFramework/Testing_PEMS/my_first_test_suit.robot">
+<test id="s1-t1" name="Login to Redmine" line="13">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:40.577669" level="INFO">Opening browser 'Chrome' to base url 'http://pems.keenable.io:3000/login'.</msg>
+<msg time="2024-11-28T18:14:48.836300" level="INFO">Opening browser 'Chrome' to base url 'http://pems.keenable.io:3000/login'.</msg>
 <arg>${URL}</arg>
 <arg>Chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2024-11-28T11:30:40.575493" elapsed="3.594337"/>
+<status status="PASS" start="2024-11-28T18:14:48.834521" elapsed="3.639275"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:44.173434" level="INFO">Typing text 'yash.anand@fosteringlinux.com' into text field 'id=username'.</msg>
+<msg time="2024-11-28T18:14:52.476603" level="INFO">Typing text 'yash.anand@fosteringlinux.com' into text field 'id=username'.</msg>
 <arg>id=username</arg>
 <arg>${USERNAME}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-28T11:30:44.171264" elapsed="0.412894"/>
+<status status="PASS" start="2024-11-28T18:14:52.475151" elapsed="0.425685"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:44.586265" level="INFO">Typing text 'pb03shivjoot' into text field 'id=password'.</msg>
+<msg time="2024-11-28T18:14:52.903651" level="INFO">Typing text '[ R E D A C T E D ]' into text field 'id=password'.</msg>
 <arg>id=password</arg>
 <arg>${PASSWORD}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-28T11:30:44.585235" elapsed="0.351594"/>
+<status status="PASS" start="2024-11-28T18:14:52.902089" elapsed="0.411768"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:44.938994" level="INFO">Clicking button 'xpath=//input[@name='login']'.</msg>
+<msg time="2024-11-28T18:14:53.315559" level="INFO">Clicking button 'xpath=//input[@name='login']'.</msg>
 <arg>xpath=//input[@name='login']</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-28T11:30:44.938013" elapsed="0.654848"/>
+<status status="PASS" start="2024-11-28T18:14:53.314694" elapsed="0.661487"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-11-28T11:30:45.595305" level="INFO">Successfully logged in.</msg>
+<msg time="2024-11-28T18:14:53.979322" level="INFO">Successfully logged in.</msg>
 <arg>Successfully logged in.</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-11-28T11:30:45.594162" elapsed="0.001689"/>
+<status status="PASS" start="2024-11-28T18:14:53.978109" elapsed="0.001709"/>
 </kw>
-<status status="PASS" start="2024-11-28T11:30:40.571007" elapsed="5.026455"/>
+<status status="PASS" start="2024-11-28T18:14:48.828441" elapsed="5.152639"/>
 </test>
-<test id="s1-t2" name="Selecting Project" line="27">
+<test id="s1-t2" name="Selecting Project" line="26">
 <kw name="Click Link" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:45.603381" level="INFO">Clicking link 'Projects'.</msg>
+<msg time="2024-11-28T18:14:53.986607" level="INFO">Clicking link 'Projects'.</msg>
 <arg>Projects</arg>
 <doc>Clicks a link identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-28T11:30:45.602122" elapsed="1.070306"/>
+<status status="PASS" start="2024-11-28T18:14:53.985387" elapsed="1.169383"/>
 </kw>
 <kw name="Click Link" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:46.674164" level="INFO">Clicking link 'xpath=//a[text()='MTA']'.</msg>
-<arg>xpath=//a[text()='MTA']</arg>
+<msg time="2024-11-28T18:14:55.156895" level="INFO">Clicking link 'xpath=//a[text()='IMS (Inventory)']'.</msg>
+<arg>xpath=//a[text()='IMS (Inventory)']</arg>
 <doc>Clicks a link identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-28T11:30:46.673340" elapsed="0.700944"/>
+<status status="PASS" start="2024-11-28T18:14:55.155587" elapsed="0.693449"/>
 </kw>
 <kw name="Click Link" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:47.376951" level="INFO">Clicking link 'Emp-tracker-2'.</msg>
+<msg time="2024-11-28T18:14:55.851727" level="INFO">Clicking link 'Emp-tracker-2'.</msg>
 <arg>Emp-tracker-2</arg>
 <doc>Clicks a link identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-28T11:30:47.375698" elapsed="0.763632"/>
+<status status="PASS" start="2024-11-28T18:14:55.850380" elapsed="0.837264"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-11-28T11:30:48.141011" level="INFO">Successfully navigated to the project.</msg>
+<msg time="2024-11-28T18:14:56.689208" level="INFO">Successfully navigated to the project.</msg>
 <arg>Successfully navigated to the project.</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-11-28T11:30:48.140318" elapsed="0.000979"/>
+<status status="PASS" start="2024-11-28T18:14:56.688538" elapsed="0.000942"/>
 </kw>
-<status status="PASS" start="2024-11-28T11:30:45.599602" elapsed="2.542880"/>
+<status status="PASS" start="2024-11-28T18:14:53.982946" elapsed="2.707452"/>
 </test>
-<test id="s1-t3" name="Creating New Issue" line="36">
+<test id="s1-t3" name="Creating New Issue" line="34">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:48.146947" level="INFO">Clicking element 'xpath=//a[contains(@class, 'icon icon-add new-issue')]'.</msg>
+<msg time="2024-11-28T18:14:56.695017" level="INFO">Clicking element 'xpath=//a[contains(@class, 'icon icon-add new-issue')]'.</msg>
 <arg>xpath=//a[contains(@class, 'icon icon-add new-issue')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-28T11:30:48.145551" elapsed="1.149215"/>
+<status status="PASS" start="2024-11-28T18:14:56.693837" elapsed="1.123900"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-11-28T11:30:49.297274" level="INFO">New Issue page opened</msg>
+<msg time="2024-11-28T18:14:57.819928" level="INFO">New Issue page opened</msg>
 <arg>New Issue page opened</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-11-28T11:30:49.296086" elapsed="0.001741"/>
+<status status="PASS" start="2024-11-28T18:14:57.819142" elapsed="0.001244"/>
 </kw>
-<status status="PASS" start="2024-11-28T11:30:48.143818" elapsed="1.155250"/>
+<status status="PASS" start="2024-11-28T18:14:56.691457" elapsed="1.130565"/>
 </test>
-<test id="s1-t4" name="Adding Subject" line="42">
-<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
-<arg>id=issue_subject</arg>
-<doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2024-11-28T11:30:49.302994" elapsed="0.090837"/>
-</kw>
+<test id="s1-t4" name="Adding Subject" line="40">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:49.395509" level="INFO">Typing text 'DSR Update' into text field 'id=issue_subject'.</msg>
+<msg time="2024-11-28T18:14:57.828287" level="INFO">Typing text 'DSR Update' into text field 'id=issue_subject'.</msg>
 <arg>id=issue_subject</arg>
 <arg>DSR Update</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-28T11:30:49.394716" elapsed="0.269407"/>
+<status status="PASS" start="2024-11-28T18:14:57.826499" elapsed="0.335886"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-11-28T11:30:49.665590" level="INFO">subject added "DSR Update"</msg>
+<msg time="2024-11-28T18:14:58.164121" level="INFO">subject added "DSR Update"</msg>
 <arg>subject added "DSR Update"</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-11-28T11:30:49.664984" elapsed="0.000896"/>
+<status status="PASS" start="2024-11-28T18:14:58.163336" elapsed="0.001078"/>
 </kw>
-<status status="PASS" start="2024-11-28T11:30:49.300766" elapsed="0.365790"/>
+<status status="PASS" start="2024-11-28T18:14:57.824229" elapsed="0.340938"/>
 </test>
-<test id="s1-t5" name="Adding Descriptiona" line="47">
+<test id="s1-t5" name="Adding Descriptiona" line="44">
 <kw name="Get File" owner="OperatingSystem">
-<msg time="2024-11-28T11:30:49.708449" level="INFO" html="true">Getting file '&lt;a href="file:///home/user/DesktopMini/RobotFramework/27-11-2024.txt"&gt;/home/user/DesktopMini/RobotFramework/27-11-2024.txt&lt;/a&gt;'.</msg>
-<msg time="2024-11-28T11:30:49.709505" level="INFO">${dsr_content} = List of tasks performed:
-- Followed the Robot Framework Tutorial by Automation Step by Step: https://www.youtube.com/playlist?list=PLhW3qG5bs-L9l2I8K8dEhw6HXy-Z-33w3
-- Worked towards better understand...</msg>
+<msg time="2024-11-28T18:14:58.168646" level="INFO" html="true">Getting file '&lt;a href="file:///home/user/DesktopMini/RobotFramework/Testing_PEMS/27-11-2024.txt"&gt;/home/user/DesktopMini/RobotFramework/Testing_PEMS/27-11-2024.txt&lt;/a&gt;'.</msg>
+<msg time="2024-11-28T18:14:58.169373" level="INFO">${dsr_content} = Test Body</msg>
 <var>${dsr_content}</var>
 <arg>${DSR_FILE}</arg>
 <doc>Returns the contents of a specified file.</doc>
-<status status="PASS" start="2024-11-28T11:30:49.668940" elapsed="0.040795"/>
+<status status="PASS" start="2024-11-28T18:14:58.167407" elapsed="0.002107"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:49.713111" level="INFO">Typing text 'List of tasks performed:
-- Followed the Robot Framework Tutorial by Automation Step by Step: https://www.youtube.com/playlist?list=PLhW3qG5bs-L9l2I8K8dEhw6HXy-Z-33w3
-- Worked towards better understanding Robot Framework's usage using the official User Guide: https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
-
-Have been able to successfully install Robot Framework and SeleniumLibrary using PIP. Have also gained an understanding of how the following sections are to be handled in a Robot file:
-Settings	
-Variables
-Test Cases
-Tasks
-Keywords
-
-In order to put the newly gained basic understanding of this Framework, worked towards writing Robot file from scratch for creating today's PEMS ticket.
-' into text field 'id=issue_description'.</msg>
+<msg time="2024-11-28T18:14:58.171371" level="INFO">Typing text 'Test Body' into text field 'id=issue_description'.</msg>
 <arg>id=issue_description</arg>
 <arg>${dsr_content}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-28T11:30:49.711142" elapsed="3.033460"/>
+<status status="PASS" start="2024-11-28T18:14:58.170302" elapsed="0.355542"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-11-28T11:30:52.746988" level="INFO">Added desc from dsr</msg>
+<msg time="2024-11-28T18:14:58.528208" level="INFO">Added desc from dsr</msg>
 <arg>Added desc from dsr</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-11-28T11:30:52.745999" elapsed="0.001416"/>
+<status status="PASS" start="2024-11-28T18:14:58.527224" elapsed="0.001489"/>
 </kw>
-<status status="PASS" start="2024-11-28T11:30:49.667564" elapsed="3.080920"/>
+<status status="PASS" start="2024-11-28T18:14:58.166104" elapsed="0.363519"/>
 </test>
-<test id="s1-t6" name="Selecting Status" line="56">
-<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
-<arg>id=issue_status_id</arg>
-<doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2024-11-28T11:30:52.751946" elapsed="0.135964"/>
-</kw>
+<test id="s1-t6" name="Selecting Status" line="53">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:52.889900" level="INFO">Clicking element 'xpath=//option[contains(.,'Inprogress')]'.</msg>
+<msg time="2024-11-28T18:14:58.534157" level="INFO">Clicking element 'xpath=//option[contains(.,'Inprogress')]'.</msg>
 <arg>xpath=//option[contains(.,'Inprogress')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-28T11:30:52.889007" elapsed="0.150179"/>
+<status status="PASS" start="2024-11-28T18:14:58.532878" elapsed="0.161496"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-11-28T11:30:53.041166" level="INFO">Set issue status to In Progress.</msg>
+<msg time="2024-11-28T18:14:58.696065" level="INFO">Set issue status to In Progress.</msg>
 <arg>Set issue status to In Progress.</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-11-28T11:30:53.040450" elapsed="0.000975"/>
+<status status="PASS" start="2024-11-28T18:14:58.695346" elapsed="0.000999"/>
 </kw>
-<status status="PASS" start="2024-11-28T11:30:52.749990" elapsed="0.292341"/>
+<status status="PASS" start="2024-11-28T18:14:58.530982" elapsed="0.166117"/>
 </test>
-<test id="s1-t7" name="Assigning To Self" line="63">
+<test id="s1-t7" name="Assigning To Self" line="60">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:53.046901" level="INFO">Clicking element 'xpath=//option[contains(., '&lt;&lt; me &gt;&gt;')]'.</msg>
+<msg time="2024-11-28T18:14:58.701356" level="INFO">Clicking element 'xpath=//option[contains(., '&lt;&lt; me &gt;&gt;')]'.</msg>
 <arg>xpath=//option[contains(., '&lt;&lt; me &gt;&gt;')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-28T11:30:53.045784" elapsed="0.123452"/>
+<status status="PASS" start="2024-11-28T18:14:58.700091" elapsed="0.121451"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-11-28T11:30:53.170879" level="INFO">Assigned issue to self.</msg>
+<msg time="2024-11-28T18:14:58.823601" level="INFO">Assigned issue to self.</msg>
 <arg>Assigned issue to self.</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-11-28T11:30:53.170135" elapsed="0.000986"/>
+<status status="PASS" start="2024-11-28T18:14:58.822893" elapsed="0.001002"/>
 </kw>
-<status status="PASS" start="2024-11-28T11:30:53.043536" elapsed="0.128476"/>
+<status status="PASS" start="2024-11-28T18:14:58.698414" elapsed="0.126458"/>
 </test>
-<test id="s1-t8" name="Adding Due Date" line="69">
-<kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:53.176222" level="INFO">Typing text 'id=issue_start_date' into text field 'id=issue_due_date'.</msg>
-<msg time="2024-11-28T11:30:53.584327" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2024-11-28T11:30:53.585041" level="FAIL">StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=131.0.6778.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Stacktrace:
-#0 0x6120afa4a31a &lt;unknown&gt;
-#1 0x6120af5606e0 &lt;unknown&gt;
-#2 0x6120af5664a3 &lt;unknown&gt;
-#3 0x6120af568968 &lt;unknown&gt;
-#4 0x6120af5689f3 &lt;unknown&gt;
-#5 0x6120af5b00a7 &lt;unknown&gt;
-#6 0x6120af5a664d &lt;unknown&gt;
-#7 0x6120af5d3462 &lt;unknown&gt;
-#8 0x6120af5a3a18 &lt;unknown&gt;
-#9 0x6120af5d362e &lt;unknown&gt;
-#10 0x6120af5f1ed7 &lt;unknown&gt;
-#11 0x6120af5d3203 &lt;unknown&gt;
-#12 0x6120af5a1cc0 &lt;unknown&gt;
-#13 0x6120af5a2c9e &lt;unknown&gt;
-#14 0x6120afa17d0b &lt;unknown&gt;
-#15 0x6120afa1bc92 &lt;unknown&gt;
-#16 0x6120afa04b3c &lt;unknown&gt;
-#17 0x6120afa1c807 &lt;unknown&gt;
-#18 0x6120af9ea0df &lt;unknown&gt;
-#19 0x6120afa39578 &lt;unknown&gt;
-#20 0x6120afa39740 &lt;unknown&gt;
-#21 0x6120afa49196 &lt;unknown&gt;
-#22 0x700c12294ac3 &lt;unknown&gt;
-</msg>
+<test id="s1-t8" name="Set Due Date Using Input Text" line="70">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
 <arg>id=issue_due_date</arg>
-<arg>id=issue_start_date</arg>
+<arg>2s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2024-11-28T18:14:58.829183" elapsed="0.187636"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-11-28T18:14:59.018767" level="INFO">Typing text '11/28/2024' into text field 'id=issue_due_date'.</msg>
+<arg>id=issue_due_date</arg>
+<arg>11/28/2024</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="FAIL" start="2024-11-28T11:30:53.174736" elapsed="0.414098">StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=131.0.6778.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Stacktrace:
-#0 0x6120afa4a31a &lt;unknown&gt;
-#1 0x6120af5606e0 &lt;unknown&gt;
-#2 0x6120af5664a3 &lt;unknown&gt;
-#3 0x6120af568968 &lt;unknown&gt;
-#4 0x6120af5689f3 &lt;unknown&gt;
-#5 0x6120af5b00a7 &lt;unknown&gt;
-#6 0x6120af5a664d &lt;unknown&gt;
-#7 0x6120af5d3462 &lt;unknown&gt;
-#8 0x6120af5a3a18 &lt;unknown&gt;
-#9 0x6120af5d362e &lt;unknown&gt;
-#10 0x6120af5f1ed7 &lt;unknown&gt;
-#11 0x6120af5d3203 &lt;unknown&gt;
-#12 0x6120af5a1cc0 &lt;unknown&gt;
-#13 0x6120af5a2c9e &lt;unknown&gt;
-#14 0x6120afa17d0b &lt;unknown&gt;
-#15 0x6120afa1bc92 &lt;unknown&gt;
-#16 0x6120afa04b3c &lt;unknown&gt;
-#17 0x6120afa1c807 &lt;unknown&gt;
-#18 0x6120af9ea0df &lt;unknown&gt;
-#19 0x6120afa39578 &lt;unknown&gt;
-#20 0x6120afa39740 &lt;unknown&gt;
-#21 0x6120afa49196 &lt;unknown&gt;
-#22 0x700c12294ac3 &lt;unknown&gt;
-</status>
+<status status="PASS" start="2024-11-28T18:14:59.017902" elapsed="0.308746"/>
+</kw>
+<kw name="Press Key" owner="SeleniumLibrary">
+<arg>id=issue_due_date</arg>
+<arg>TAB</arg>
+<doc>Simulates user pressing key on element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-28T18:14:59.327555" elapsed="0.190692"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<arg>Set due date to</arg>
+<msg time="2024-11-28T18:14:59.519816" level="INFO">'Due date set to 28/11/2024'</msg>
+<arg>'Due date set to 28/11/2024'</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="NOT RUN" start="2024-11-28T11:30:53.589794" elapsed="0.000169"/>
+<status status="PASS" start="2024-11-28T18:14:59.519088" elapsed="0.000982"/>
 </kw>
-<status status="FAIL" start="2024-11-28T11:30:53.173264" elapsed="0.418112">StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
-  (Session info: chrome=131.0.6778.69); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Stacktrace:
-#0 0x6120afa4a31a &lt;unknown&gt;
-#1 0x6120af5606e0 &lt;unknown&gt;
-#2 0x6120af5664a3 &lt;unknown&gt;
-#3 0x6120af568968 &lt;unknown&gt;
-#4 0x6120af5689f3 &lt;unknown&gt;
-#5 0x6120af5b00a7 &lt;unknown&gt;
-#6 0x6120af5a664d &lt;unknown&gt;
-#7 0x6120af5d3462 &lt;unknown&gt;
-#8 0x6120af5a3a18 &lt;unknown&gt;
-#9 0x6120af5d362e &lt;unknown&gt;
-#10 0x6120af5f1ed7 &lt;unknown&gt;
-#11 0x6120af5d3203 &lt;unknown&gt;
-#12 0x6120af5a1cc0 &lt;unknown&gt;
-#13 0x6120af5a2c9e &lt;unknown&gt;
-#14 0x6120afa17d0b &lt;unknown&gt;
-#15 0x6120afa1bc92 &lt;unknown&gt;
-#16 0x6120afa04b3c &lt;unknown&gt;
-#17 0x6120afa1c807 &lt;unknown&gt;
-#18 0x6120af9ea0df &lt;unknown&gt;
-#19 0x6120afa39578 &lt;unknown&gt;
-#20 0x6120afa39740 &lt;unknown&gt;
-#21 0x6120afa49196 &lt;unknown&gt;
-#22 0x700c12294ac3 &lt;unknown&gt;
-</status>
+<status status="PASS" start="2024-11-28T18:14:58.826615" elapsed="0.694447"/>
 </test>
-<test id="s1-t9" name="Selecting Type of Work" line="74">
-<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
-<arg>id=issue_custom_field_values_32</arg>
-<doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2024-11-28T11:30:53.594965" elapsed="0.079584"/>
-</kw>
+<test id="s1-t9" name="Selecting Type of Work" line="77">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:53.676703" level="INFO">Clicking element 'xpath=//option[contains(.,'Task')]'.</msg>
+<msg time="2024-11-28T18:14:59.526564" level="INFO">Clicking element 'xpath=//option[contains(.,'Task')]'.</msg>
 <arg>xpath=//option[contains(.,'Task')]</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-28T11:30:53.675490" elapsed="0.118365"/>
+<status status="PASS" start="2024-11-28T18:14:59.525253" elapsed="0.124622"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-11-28T11:30:53.796034" level="INFO">Selected type of work: Task.</msg>
+<msg time="2024-11-28T18:14:59.651372" level="INFO">Selected type of work: Task.</msg>
 <arg>Selected type of work: Task.</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-11-28T11:30:53.795278" elapsed="0.001028"/>
+<status status="PASS" start="2024-11-28T18:14:59.650720" elapsed="0.000901"/>
 </kw>
-<status status="PASS" start="2024-11-28T11:30:53.593189" elapsed="0.204352"/>
+<status status="PASS" start="2024-11-28T18:14:59.523031" elapsed="0.129790"/>
 </test>
-<test id="s1-t10" name="Submitting Issue" line="79">
-<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
-<arg>xpath=//input[@name='commit']</arg>
-<doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" start="2024-11-28T11:30:53.802136" elapsed="0.074577"/>
-</kw>
-<kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:53.878373" level="INFO">Clicking button 'xpath=//input[@name='commit']'.</msg>
-<arg>xpath=//input[@name='commit']</arg>
-<doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2024-11-28T11:30:53.877545" elapsed="0.507973"/>
-</kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2024-11-28T11:30:54.387742" level="INFO">Issue successfully created.</msg>
-<arg>Issue successfully created.</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-11-28T11:30:54.386813" elapsed="0.001455"/>
-</kw>
-<status status="PASS" start="2024-11-28T11:30:53.799540" elapsed="0.589812"/>
-</test>
-<test id="s1-t11" name="Adding Work Location" line="84">
+<test id="s1-t10" name="Adding Work Location" line="82">
 <kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2024-11-28T11:30:54.394811" level="INFO">Clicking element 'xpath=//option[contains(.,'Working FROM Office')]'.</msg>
-<msg time="2024-11-28T11:30:54.903339" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-10.png"&gt;&lt;img src="selenium-screenshot-10.png" width="800px"&gt;&lt;/a&gt;</msg>
-<msg time="2024-11-28T11:30:54.904243" level="FAIL">Element with locator 'xpath=//option[contains(.,'Working FROM Office')]' not found.</msg>
-<arg>xpath=//option[contains(.,'Working FROM Office')]</arg>
+<msg time="2024-11-28T18:14:59.656510" level="INFO">Clicking element 'xpath=//input[@value='Working FROM Office']'.</msg>
+<arg>xpath=//input[@value='Working FROM Office']</arg>
 <doc>Click the element identified by ``locator``.</doc>
-<status status="FAIL" start="2024-11-28T11:30:54.393386" elapsed="0.513334">Element with locator 'xpath=//option[contains(.,'Working FROM Office')]' not found.</status>
+<status status="PASS" start="2024-11-28T18:14:59.655411" elapsed="0.293377"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
+<msg time="2024-11-28T18:14:59.950719" level="INFO">selected work location as Offices</msg>
 <arg>selected work location as Offices</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="NOT RUN" start="2024-11-28T11:30:54.907704" elapsed="0.000191"/>
+<status status="PASS" start="2024-11-28T18:14:59.949843" elapsed="0.001300"/>
 </kw>
-<status status="FAIL" start="2024-11-28T11:30:54.391117" elapsed="0.517672">Element with locator 'xpath=//option[contains(.,'Working FROM Office')]' not found.</status>
+<status status="PASS" start="2024-11-28T18:14:59.654109" elapsed="0.298152"/>
 </test>
-<test id="s1-t12" name="Close Browser" line="91">
-<kw name="Close Browser" owner="SeleniumLibrary">
-<doc>Closes the current browser.</doc>
-<status status="PASS" start="2024-11-28T11:30:54.911371" elapsed="0.139463"/>
+<test id="s1-t11" name="Submitting Issue" line="87">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-28T18:14:59.957205" level="INFO">Clicking button 'xpath=//input[@name='commit']'.</msg>
+<arg>xpath=//input[@name='commit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-28T18:14:59.955324" elapsed="0.811094"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2024-11-28T11:30:55.052289" level="INFO">Closed the browser</msg>
+<msg time="2024-11-28T18:15:00.768430" level="INFO">Issue successfully created.</msg>
+<arg>Issue successfully created.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-11-28T18:15:00.767552" elapsed="0.001333"/>
+</kw>
+<status status="PASS" start="2024-11-28T18:14:59.953489" elapsed="0.816531"/>
+</test>
+<test id="s1-t12" name="Marking issue as Resolved" line="94">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-28T18:15:00.776479" level="INFO">Clicking element 'xpath=//a[text()='Edit']'.</msg>
+<arg>xpath=//a[text()='Edit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-28T18:15:00.774878" elapsed="0.720008"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-11-28T18:15:01.497410" level="INFO">successfully clicked 'edit issue'</msg>
+<arg>successfully clicked 'edit issue'</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-11-28T18:15:01.496355" elapsed="0.001547"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-28T18:15:01.500638" level="INFO">Clicking element 'xpath=//option[contains(.,'Resolved')]'.</msg>
+<arg>xpath=//option[contains(.,'Resolved')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-28T18:15:01.499325" elapsed="0.137616"/>
+</kw>
+<status status="PASS" start="2024-11-28T18:15:00.771797" elapsed="0.866240"/>
+</test>
+<test id="s1-t13" name="Submitting Issue Resolved" line="99">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-28T18:15:01.642167" level="INFO">Clicking button 'xpath=//input[@value='Submit']'.</msg>
+<arg>xpath=//input[@value='Submit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-28T18:15:01.641283" elapsed="1.304422"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-11-28T18:15:02.948046" level="INFO">Issue successfully created.</msg>
+<arg>Issue successfully created.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-11-28T18:15:02.947057" elapsed="0.001491"/>
+</kw>
+<status status="PASS" start="2024-11-28T18:15:01.639724" elapsed="1.310083"/>
+</test>
+<test id="s1-t14" name="Marking issue as cLosed" line="104">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-28T18:15:02.955008" level="INFO">Clicking element 'xpath=//a[text()='Edit']'.</msg>
+<arg>xpath=//a[text()='Edit']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-28T18:15:02.953656" elapsed="0.305273"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-11-28T18:15:03.261368" level="INFO">successfully resolved</msg>
+<arg>successfully resolved</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-11-28T18:15:03.260286" elapsed="0.001542"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-11-28T18:15:03.264271" level="INFO">Clicking element 'xpath=//option[contains(.,'Closed')]'.</msg>
+<arg>xpath=//option[contains(.,'Closed')]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-28T18:15:03.263031" elapsed="0.137706"/>
+</kw>
+<status status="PASS" start="2024-11-28T18:15:02.951388" elapsed="0.450640"/>
+</test>
+<test id="s1-t15" name="Submitting Issue closed" line="109">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-11-28T18:15:03.405897" level="INFO">Clicking button 'xpath=//input[@value='Submit']'.</msg>
+<arg>xpath=//input[@value='Submit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-11-28T18:15:03.405013" elapsed="1.206521"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-11-28T18:15:04.613428" level="INFO">Issue successfully created.</msg>
+<arg>Issue successfully created.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2024-11-28T18:15:04.612707" elapsed="0.000967"/>
+</kw>
+<status status="PASS" start="2024-11-28T18:15:03.403181" elapsed="1.211237"/>
+</test>
+<test id="s1-t16" name="Close Browser" line="115">
+<kw name="Log" owner="BuiltIn">
+<msg time="2024-11-28T18:15:04.617202" level="INFO">Closed the browser</msg>
 <arg>Closed the browser</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2024-11-28T11:30:55.051697" elapsed="0.000830"/>
+<status status="PASS" start="2024-11-28T18:15:04.616649" elapsed="0.000783"/>
 </kw>
-<status status="PASS" start="2024-11-28T11:30:54.909920" elapsed="0.143307"/>
+<status status="PASS" start="2024-11-28T18:15:04.615433" elapsed="0.002641"/>
 </test>
-<status status="FAIL" start="2024-11-28T11:30:39.909839" elapsed="15.145175"/>
+<status status="PASS" start="2024-11-28T18:14:48.153239" elapsed="16.467058"/>
 </suite>
 <statistics>
 <total>
-<stat pass="10" fail="2" skip="0">All Tests</stat>
+<stat pass="16" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="10" fail="2" skip="0" id="s1" name="My First Test Suit">My First Test Suit</stat>
+<stat pass="16" fail="0" skip="0" id="s1" name="My First Test Suit">My First Test Suit</stat>
 </suite>
 </statistics>
 <errors>
