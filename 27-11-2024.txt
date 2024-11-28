@@ -1,0 +1,12 @@
+List of tasks performed:
+- Followed the Robot Framework Tutorial by Automation Step by Step: https://www.youtube.com/playlist?list=PLhW3qG5bs-L9l2I8K8dEhw6HXy-Z-33w3
+- Worked towards better understanding Robot Framework's usage using the official User Guide: https://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
+
+Have been able to successfully install Robot Framework and SeleniumLibrary using PIP. Have also gained an understanding of how the following sections are to be handled in a Robot file:
+Settings	
+Variables
+Test Cases
+Tasks
+Keywords
+
+In order to put the newly gained basic understanding of this Framework, worked towards writing Robot file from scratch for creating today's PEMS ticket.
