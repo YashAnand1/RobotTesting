@@ -7,7 +7,7 @@ Library           OperatingSystem
 ${URL}                     http://pems.keenable.io:3000/login
 ${USERNAME}                yash.anand@fosteringlinux.com
 ${PASSWORD}                [ R E D A C T E D ]
-${DSR_FILE}                27-11-2024.txt
+${DSR_FILE}                DSR.txt
 
 *** Test Cases ***
 Login to Redmine
